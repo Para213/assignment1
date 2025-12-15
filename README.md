@@ -47,31 +47,6 @@ A `CarBuilder` class allows the car to be constructed step-by-step. It provides 
 
 ---
 
-## 📂 Project Structure
-
-src/
-├── main/
-│ └── java/
-│ ├── com/
-│ │ └── assignment/
-│ │ ├── documents/ # Factory Pattern implementation
-│ │ │ ├── Document.java
-│ │ │ ├── DocumentFactory.java
-│ │ │ └── [Pdf/Word/Html]Document.java
-│ │ ├── cars/ # Builder Pattern implementation
-│ │ │ ├── Car.java
-│ │ │ └── CarBuilder.java
-│ │ └── MainApp.java # Combined Logic (Entry Point)
-└── test/
-└── java/
-└── com/
-└── assignment/
-├── DocumentTest.java # Unit Tests
-└── CarBuilderTest.java
-
-
----
-
 ## 🚀 How It Works
 
 1. **Initialization**  
